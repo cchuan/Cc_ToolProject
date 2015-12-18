@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E4134FF1C23F6A0000AB81C /* TakePhoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4134FD1C23F6A0000AB81C /* TakePhoteViewController.m */; };
+		4E4135001C23F6A0000AB81C /* TakePhoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E4134FE1C23F6A0000AB81C /* TakePhoteViewController.xib */; };
+		4E4135031C23F6A8000AB81C /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4135021C23F6A8000AB81C /* CaptureSessionManager.m */; };
+		4E4135081C23F7CA000AB81C /* CcTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4135061C23F7CA000AB81C /* CcTableViewController.m */; };
+		4E4135091C23F7CA000AB81C /* CcTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E4135071C23F7CA000AB81C /* CcTableViewController.xib */; };
+		4E41350D1C23FE2F000AB81C /* CcTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E41350B1C23FE2F000AB81C /* CcTableViewCell.m */; };
+		4E41350E1C23FE2F000AB81C /* CcTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E41350C1C23FE2F000AB81C /* CcTableViewCell.xib */; };
 		4E594F461C23DB730089509C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E594F451C23DB730089509C /* main.m */; };
 		4E594F491C23DB730089509C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E594F481C23DB730089509C /* AppDelegate.m */; };
 		4E594F4C1C23DB730089509C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E594F4B1C23DB730089509C /* ViewController.m */; };
@@ -20,6 +27,17 @@
 		1D310C992E320921FF57F2B8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		3737C19B968BBA7DE1D7E0FF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		4E1B2D1B1C23E7D80065527B /* Cc_Tool.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cc_Tool.pch; sourceTree = "<group>"; };
+		4E4134FC1C23F6A0000AB81C /* TakePhoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePhoteViewController.h; sourceTree = "<group>"; };
+		4E4134FD1C23F6A0000AB81C /* TakePhoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePhoteViewController.m; sourceTree = "<group>"; };
+		4E4134FE1C23F6A0000AB81C /* TakePhoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakePhoteViewController.xib; sourceTree = "<group>"; };
+		4E4135011C23F6A8000AB81C /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
+		4E4135021C23F6A8000AB81C /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
+		4E4135051C23F7CA000AB81C /* CcTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CcTableViewController.h; sourceTree = "<group>"; };
+		4E4135061C23F7CA000AB81C /* CcTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CcTableViewController.m; sourceTree = "<group>"; };
+		4E4135071C23F7CA000AB81C /* CcTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CcTableViewController.xib; sourceTree = "<group>"; };
+		4E41350A1C23FE2F000AB81C /* CcTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CcTableViewCell.h; sourceTree = "<group>"; };
+		4E41350B1C23FE2F000AB81C /* CcTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CcTableViewCell.m; sourceTree = "<group>"; };
+		4E41350C1C23FE2F000AB81C /* CcTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CcTableViewCell.xib; sourceTree = "<group>"; };
 		4E594F411C23DB730089509C /* Cc_ToolProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cc_ToolProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E594F451C23DB730089509C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E594F471C23DB730089509C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,6 +63,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E4134FB1C23F689000AB81C /* TakePhoto */ = {
+			isa = PBXGroup;
+			children = (
+				4E4135011C23F6A8000AB81C /* CaptureSessionManager.h */,
+				4E4135021C23F6A8000AB81C /* CaptureSessionManager.m */,
+				4E4134FC1C23F6A0000AB81C /* TakePhoteViewController.h */,
+				4E4134FD1C23F6A0000AB81C /* TakePhoteViewController.m */,
+				4E4134FE1C23F6A0000AB81C /* TakePhoteViewController.xib */,
+			);
+			name = TakePhoto;
+			sourceTree = "<group>";
+		};
+		4E4135041C23F75B000AB81C /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				4E41350A1C23FE2F000AB81C /* CcTableViewCell.h */,
+				4E41350B1C23FE2F000AB81C /* CcTableViewCell.m */,
+				4E41350C1C23FE2F000AB81C /* CcTableViewCell.xib */,
+				4E4135051C23F7CA000AB81C /* CcTableViewController.h */,
+				4E4135061C23F7CA000AB81C /* CcTableViewController.m */,
+				4E4135071C23F7CA000AB81C /* CcTableViewController.xib */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
 		4E594F381C23DB730089509C = {
 			isa = PBXGroup;
 			children = (
@@ -66,15 +109,14 @@
 		4E594F431C23DB730089509C /* Cc_ToolProject */ = {
 			isa = PBXGroup;
 			children = (
+				4E594F441C23DB730089509C /* Supporting Files */,
 				4E594F471C23DB730089509C /* AppDelegate.h */,
 				4E594F481C23DB730089509C /* AppDelegate.m */,
 				4E594F4A1C23DB730089509C /* ViewController.h */,
 				4E594F4B1C23DB730089509C /* ViewController.m */,
 				4E594F4D1C23DB730089509C /* Main.storyboard */,
-				4E594F501C23DB730089509C /* Assets.xcassets */,
-				4E594F521C23DB730089509C /* LaunchScreen.storyboard */,
-				4E594F551C23DB730089509C /* Info.plist */,
-				4E594F441C23DB730089509C /* Supporting Files */,
+				4E4134FB1C23F689000AB81C /* TakePhoto */,
+				4E4135041C23F75B000AB81C /* TableView */,
 			);
 			path = Cc_ToolProject;
 			sourceTree = "<group>";
@@ -83,6 +125,9 @@
 			isa = PBXGroup;
 			children = (
 				4E594F451C23DB730089509C /* main.m */,
+				4E594F501C23DB730089509C /* Assets.xcassets */,
+				4E594F521C23DB730089509C /* LaunchScreen.storyboard */,
+				4E594F551C23DB730089509C /* Info.plist */,
 				4E1B2D1B1C23E7D80065527B /* Cc_Tool.pch */,
 			);
 			name = "Supporting Files";
@@ -165,8 +210,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E4135001C23F6A0000AB81C /* TakePhoteViewController.xib in Resources */,
 				4E594F541C23DB730089509C /* LaunchScreen.storyboard in Resources */,
 				4E594F511C23DB730089509C /* Assets.xcassets in Resources */,
+				4E41350E1C23FE2F000AB81C /* CcTableViewCell.xib in Resources */,
+				4E4135091C23F7CA000AB81C /* CcTableViewController.xib in Resources */,
 				4E594F4F1C23DB730089509C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E4134FF1C23F6A0000AB81C /* TakePhoteViewController.m in Sources */,
+				4E4135031C23F6A8000AB81C /* CaptureSessionManager.m in Sources */,
 				4E594F4C1C23DB730089509C /* ViewController.m in Sources */,
+				4E4135081C23F7CA000AB81C /* CcTableViewController.m in Sources */,
 				4E594F491C23DB730089509C /* AppDelegate.m in Sources */,
 				4E594F461C23DB730089509C /* main.m in Sources */,
+				4E41350D1C23FE2F000AB81C /* CcTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

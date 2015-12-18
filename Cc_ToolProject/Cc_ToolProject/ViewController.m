@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "TakePhoteViewController.h"
+#import "CctableViewcontroller.h"
 
 @interface ViewController ()
 
@@ -25,5 +27,18 @@
     [super viewDidLoad];
 }
 
+- (IBAction)actionButtonClick:(id)sender
+{
+    UIButton *btn = (UIButton *)sender;
+    NSString *titleStr = btn.currentTitle;
+    
+    if ([titleStr isEqualToString:@"takePhotoVC"]) {
+        TakePhoteViewController *takePhotoVC = [[TakePhoteViewController alloc] init];
+        [self.navigationController pushViewController:takePhotoVC animated:YES];
+    } else if ([titleStr isEqualToString:@"tableViewVC"]) {
+        CcTableViewController *ccTableViewVC = [[CcTableViewController alloc] init];
+        [self.navigationController pushViewController:ccTableViewVC animated:YES];
+    }
+}
 
 @end
