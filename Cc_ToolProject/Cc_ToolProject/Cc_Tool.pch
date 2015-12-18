@@ -1,0 +1,24 @@
+//
+//  Cc_Tool.pch
+//  Cc_ToolProject
+//
+//  Created by cchuan on 15/12/18.
+//  Copyright © 2015年 cchuan. All rights reserved.
+//
+
+#ifndef Cc_Tool_pch
+#define Cc_Tool_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <CocoaLumberjack.h>
+
+
+#ifdef DEBUG
+static const int ddLogLevel = DDLogLevelVerbose;
+#else
+static const int ddLogLevel = DDLogLevelError;
+#endif
+// 在release下，只会输出错误信息。这样发布的之后，看不到有效信息
+
+#endif /* Cc_Tool_pch */

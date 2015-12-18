@@ -16,9 +16,36 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [self setUpLogColor];
+    
     return YES;
 }
+
+- (void)setUpLogColor
+{
+    // 实例化 lumberjack
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
+    // 允许颜色
+    [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
+    // 配置以下内容在pch文件中
+//#ifdef DEBUG
+//    static const int ddLogLevel = DDLogLevelVerbose;
+//#else
+//    static const int ddLogLevel = DDLogLevelError;
+//#endif
+    
+    // 然后运行 xcodeColors工程，配置scheme的run中的environment添加“XcodeColors”设置为YES
+    
+//    DDLogError(@"错误信息"); // 红色
+//    DDLogWarn(@"警告"); // 橙色
+//    DDLogInfo(@"提示信息"); // 默认是黑色
+//    DDLogVerbose(@"详细信息"); // 默认是黑色
+    // 以下方法可以修改各种状态的颜色
+//    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor blueColor] backgroundColor:nil forFlag:LOG_FLAG_INFO];
+}
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
