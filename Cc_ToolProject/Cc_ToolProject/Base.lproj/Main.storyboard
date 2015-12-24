@@ -47,6 +47,13 @@
                                     <action selector="actionButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="22w-hp-7xw"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gD9-WA-Ep1">
+                                <rect key="frame" x="99" y="159" width="122" height="30"/>
+                                <state key="normal" title="alertView"/>
+                                <connections>
+                                    <action selector="actionButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hmG-wD-dmJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>

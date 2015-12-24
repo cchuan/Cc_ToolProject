@@ -20,6 +20,8 @@
 		4E594F4F1C23DB730089509C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E594F4D1C23DB730089509C /* Main.storyboard */; };
 		4E594F511C23DB730089509C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E594F501C23DB730089509C /* Assets.xcassets */; };
 		4E594F541C23DB730089509C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E594F521C23DB730089509C /* LaunchScreen.storyboard */; };
+		4EA8397E1C2BD508003C97B7 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA8397C1C2BD508003C97B7 /* AlertViewController.m */; };
+		4EA8397F1C2BD508003C97B7 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EA8397D1C2BD508003C97B7 /* AlertViewController.xib */; };
 		CFF1C4FEB5BBB9976A40C80D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8936E6F7421BD8B0C55B3A3E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,9 @@
 		4E594F501C23DB730089509C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E594F531C23DB730089509C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E594F551C23DB730089509C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EA8397B1C2BD508003C97B7 /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		4EA8397C1C2BD508003C97B7 /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		4EA8397D1C2BD508003C97B7 /* AlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertViewController.xib; sourceTree = "<group>"; };
 		8936E6F7421BD8B0C55B3A3E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -117,6 +122,7 @@
 				4E594F4D1C23DB730089509C /* Main.storyboard */,
 				4E4134FB1C23F689000AB81C /* TakePhoto */,
 				4E4135041C23F75B000AB81C /* TableView */,
+				4EA8397A1C2BD4D7003C97B7 /* AlertView */,
 			);
 			path = Cc_ToolProject;
 			sourceTree = "<group>";
@@ -131,6 +137,16 @@
 				4E1B2D1B1C23E7D80065527B /* Cc_Tool.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EA8397A1C2BD4D7003C97B7 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				4EA8397B1C2BD508003C97B7 /* AlertViewController.h */,
+				4EA8397C1C2BD508003C97B7 /* AlertViewController.m */,
+				4EA8397D1C2BD508003C97B7 /* AlertViewController.xib */,
+			);
+			name = AlertView;
 			sourceTree = "<group>";
 		};
 		AF2AB58E1A7F0D4E90095D20 /* Pods */ = {
@@ -184,6 +200,7 @@
 				TargetAttributes = {
 					4E594F401C23DB730089509C = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PN96K68BXN;
 					};
 				};
 			};
@@ -216,6 +233,7 @@
 				4E41350E1C23FE2F000AB81C /* CcTableViewCell.xib in Resources */,
 				4E4135091C23F7CA000AB81C /* CcTableViewController.xib in Resources */,
 				4E594F4F1C23DB730089509C /* Main.storyboard in Resources */,
+				4EA8397F1C2BD508003C97B7 /* AlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +299,7 @@
 				4E594F491C23DB730089509C /* AppDelegate.m in Sources */,
 				4E594F461C23DB730089509C /* main.m in Sources */,
 				4E41350D1C23FE2F000AB81C /* CcTableViewCell.m in Sources */,
+				4EA8397E1C2BD508003C97B7 /* AlertViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,11 +412,14 @@
 			baseConfigurationReference = 3737C19B968BBA7DE1D7E0FF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = /Users/cchuan/Documents/MyGithub/Cc_ToolProject/Cc_ToolProject/Cc_ToolProject/Cc_Tool.pch;
 				INFOPLIST_FILE = Cc_ToolProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cchuan.Cc-ToolProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -406,11 +428,14 @@
 			baseConfigurationReference = 1D310C992E320921FF57F2B8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = /Users/cchuan/Documents/MyGithub/Cc_ToolProject/Cc_ToolProject/Cc_ToolProject/Cc_Tool.pch;
 				INFOPLIST_FILE = Cc_ToolProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cchuan.Cc-ToolProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

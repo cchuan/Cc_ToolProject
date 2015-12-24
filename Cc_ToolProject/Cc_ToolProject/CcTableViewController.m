@@ -86,10 +86,13 @@
     }
 }
 
-// 当实现下面的方法时，上面的方法不会执行
+// 当实现下面的方法时，上面的方法不会执行（iOS8以后）
 -(NSArray *)tableView:(UITableView *)tableView editActionsForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewRowAction *deleteRoWAction = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDestructive title:@"删除" handler:^(UITableViewRowAction *action, NSIndexPath *indexPath) {
+        
+        [self.cellContentArr removeObjectAtIndex:indexPath.row];
+        [self.ccTableView reloadData];
         DDLogWarn(@"点击删除");
     }];
     

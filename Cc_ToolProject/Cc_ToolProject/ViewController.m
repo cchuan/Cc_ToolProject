@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "TakePhoteViewController.h"
 #import "CctableViewcontroller.h"
+#import "AlertViewController.h"
 
 @interface ViewController ()
 
@@ -38,6 +39,9 @@
     } else if ([titleStr isEqualToString:@"tableViewVC"]) {
         CcTableViewController *ccTableViewVC = [[CcTableViewController alloc] init];
         [self.navigationController pushViewController:ccTableViewVC animated:YES];
+    } else if ([titleStr isEqualToString:@"alertView"]) {
+        AlertViewController *alertVC = [[AlertViewController alloc] init];
+        [self.navigationController pushViewController:alertVC animated:YES];
     }
 }
 

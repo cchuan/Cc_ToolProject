@@ -109,6 +109,11 @@
     }];
 }
 
+- (void)captureOutput:(AVCaptureFileOutput *)captureOutput didFinishRecordingToOutputFileAtURL:(NSURL *)outputFileURL fromConnections:(NSArray *)connections error:(NSError *)error
+{
+    
+}
+
 
 - (void)addVideoInputFrontCamera:(BOOL)front {
     NSArray *devices = [AVCaptureDevice devices];
