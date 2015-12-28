@@ -54,6 +54,13 @@
                                     <action selector="actionButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hmG-wD-dmJ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWo-us-4JH">
+                                <rect key="frame" x="99" y="197" width="122" height="30"/>
+                                <state key="normal" title="scrollView"/>
+                                <connections>
+                                    <action selector="actionButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yb0-7C-gPF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>

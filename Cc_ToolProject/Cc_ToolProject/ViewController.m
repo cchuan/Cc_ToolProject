@@ -10,6 +10,7 @@
 #import "TakePhoteViewController.h"
 #import "CctableViewcontroller.h"
 #import "AlertViewController.h"
+#import "ScrollViewController.h"
 
 @interface ViewController ()
 
@@ -42,6 +43,9 @@
     } else if ([titleStr isEqualToString:@"alertView"]) {
         AlertViewController *alertVC = [[AlertViewController alloc] init];
         [self.navigationController pushViewController:alertVC animated:YES];
+    } else if ([titleStr isEqualToString:@"scrollView"]) {
+        ScrollViewController *scrollViewVC = [[ScrollViewController alloc] init];
+        [self.navigationController pushViewController:scrollViewVC animated:YES];
     }
 }
 
