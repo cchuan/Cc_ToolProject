@@ -60,6 +60,19 @@
     /*
      // 在tableView中，起点是cell上的点，
      // position在cell中取 CGPoint btnPoint = [self convertPoint:self.plusBtn.center toView:self.superview]; // self.plusBtn是cell上点击的按钮
+     @property (nonatomic, strong) void(^plusTapHandle)(CGPoint position);
+     
+     CGPoint btnPoint = [self convertPoint:self.plusBtn.center toView:self.superview];
+     // 调用
+     self.plusTapHandle(btnPoint);
+     
+     [cell setPlusTapHandle:^(CGPoint position) {
+     
+        CGPoint startPoint = [self.view convertPoint:position fromView:self.tableView];
+        CGPoint endPoint = [self.view convertPoint:self.shippingCartView.center fromView:self.bottomView];
+        [self initCHLayerFromPoint:startPoint toPoint:endPoint];
+     
+     }];
      
      // 下面内容在cellFor方法中
      CGPoint startPoint = [self.view convertPoint:position fromView:self.tableView];
