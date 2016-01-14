@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -61,11 +62,32 @@
                                     <action selector="actionButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yb0-7C-gPF"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJ2-O4-Kra">
+                                <rect key="frame" x="257" y="83" width="30" height="30"/>
+                                <state key="normal" title="+"/>
+                                <connections>
+                                    <action selector="addButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yji-vp-9DA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vaw-CJ-isB">
+                                <rect key="frame" x="16" y="518" width="45" height="30"/>
+                                <state key="normal" title="购物车"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AJ2-O4-Kra" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="19" id="1dA-Gc-HDd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AJ2-O4-Kra" secondAttribute="trailing" constant="17" id="KCj-Mo-0QQ"/>
+                            <constraint firstItem="vaw-CJ-isB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Onp-1y-Ovn"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vaw-CJ-isB" secondAttribute="bottom" constant="20" id="cdn-b7-oNt"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="SWo-Ff-XNl"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="addButton" destination="AJ2-O4-Kra" id="Qhq-99-WAi"/>
+                        <outlet property="shoppingCartButton" destination="vaw-CJ-isB" id="hx6-UQ-7Yf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

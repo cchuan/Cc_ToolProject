@@ -51,6 +51,17 @@
 
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
+//    if (scrollView.contentOffset.x < -60) {
+//        self.myPagecontrol.currentPage = 3;
+//        self.myScrollview.contentOffset = CGPointMake(scrollView.frame.size.width*3, 0);
+//    } else if (scrollView.contentOffset.x > scrollView.frame.size.width*3 + 60) {
+//        self.myPagecontrol.currentPage = 0;
+//        self.myScrollview.contentOffset = CGPointMake(0, 0);
+//    } else {
+//        NSInteger pageInt = scrollView.contentOffset.x / scrollView.frame.size.width;
+//        self.myPagecontrol.currentPage = pageInt;
+//    }
+    
     NSInteger pageInt = scrollView.contentOffset.x / scrollView.frame.size.width;
     self.myPagecontrol.currentPage = pageInt;
 }
