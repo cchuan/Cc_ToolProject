@@ -73,6 +73,13 @@
                                 <rect key="frame" x="16" y="518" width="45" height="30"/>
                                 <state key="normal" title="购物车"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ptY-Qz-dXa">
+                                <rect key="frame" x="99" y="235" width="122" height="30"/>
+                                <state key="normal" title="dynamic"/>
+                                <connections>
+                                    <action selector="actionButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fIv-9z-uXr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>

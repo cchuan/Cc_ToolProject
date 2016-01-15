@@ -11,6 +11,7 @@
 #import "CctableViewcontroller.h"
 #import "AlertViewController.h"
 #import "ScrollViewController.h"
+#import "DynamicViewController.h"
 
 @interface ViewController ()
 
@@ -52,6 +53,9 @@
     } else if ([titleStr isEqualToString:@"scrollView"]) {
         ScrollViewController *scrollViewVC = [[ScrollViewController alloc] init];
         [self.navigationController pushViewController:scrollViewVC animated:YES];
+    } else if ([titleStr isEqualToString:@"dynamic"]) {
+        DynamicViewController *dynamicVC = [[DynamicViewController alloc] init];
+        [self.navigationController pushViewController:dynamicVC animated:YES];
     }
 }
 
