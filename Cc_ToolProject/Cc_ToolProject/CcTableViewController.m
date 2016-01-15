@@ -33,6 +33,32 @@
     
     self.ccTableView.backgroundColor = [UIColor clearColor];
     self.ccTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    
+    self.ccTableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+        // 下拉刷新
+    }];
+    MJRefreshNormalHeader *header = (id)self.ccTableView.mj_header;
+    header.lastUpdatedTimeLabel.hidden = YES;
+    header.backgroundColor = [UIColor lightGrayColor];
+    [header setTitle:@"下拉刷新" forState:MJRefreshStateIdle];
+    [header setTitle:@"释放更新" forState:MJRefreshStatePulling];
+    [header setTitle:@"加载中" forState:MJRefreshStateRefreshing];
+    
+    self.ccTableView.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
+        // 进行上啦操作
+    }];
+    self.ccTableView.mj_footer.automaticallyHidden = YES;
+    MJRefreshAutoNormalFooter *footer = (id)self.ccTableView.mj_footer;
+    [footer.stateLabel setTextColor:[UIColor grayColor]];
+    [footer setTitle:@"正在加载数据..." forState:MJRefreshStateRefreshing];
+    [footer setTitle:@"上拉可加载数据" forState:MJRefreshStateIdle];
+}
+
+// 获取更多或刷新完成调用以下方法
+- (void)endRefreshing
+{
+    [self.ccTableView.mj_header endRefreshing];
+    [self.ccTableView.mj_footer endRefreshing];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView

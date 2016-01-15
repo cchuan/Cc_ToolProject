@@ -14,6 +14,7 @@
 #import <CocoaLumberjack.h>
 #import <AFNetworking.h>
 #import <MBProgressHUD.h>
+#import <MJRefresh.h>
 
 #ifdef DEBUG
 static const int ddLogLevel = DDLogLevelVerbose;

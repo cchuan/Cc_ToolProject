@@ -23,15 +23,18 @@ PODS:
   - CocoaLumberjack/Extensions (2.2.0):
     - CocoaLumberjack/Default
   - MBProgressHUD (0.9.1)
+  - MJRefresh (3.1.0)
 
 DEPENDENCIES:
   - AFNetworking (= 3.0.3)
   - CocoaLumberjack (= 2.2.0)
   - MBProgressHUD (= 0.9.1)
+  - MJRefresh
 
 SPEC CHECKSUMS:
   AFNetworking: ba06eb9f27de596808c0acc09e1c920cb1d17ab4
   CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
 
 COCOAPODS: 0.39.0
