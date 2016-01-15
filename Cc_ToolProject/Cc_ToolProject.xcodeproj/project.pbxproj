@@ -150,21 +150,21 @@
 		4E25437C1C48EC320005421A /* HUD */ = {
 			isa = PBXGroup;
 			children = (
+				4E2543831C48EC320005421A /* HUD.h */,
+				4E2543841C48EC320005421A /* HUD.m */,
+				4E25438A1C48EC320005421A /* WSProgressHUD.h */,
+				4E25438B1C48EC320005421A /* WSProgressHUD.m */,
 				4E25437D1C48EC320005421A /* FBShimmering-Prefix.pch */,
 				4E25437E1C48EC320005421A /* FBShimmering.h */,
 				4E25437F1C48EC320005421A /* FBShimmeringLayer.h */,
 				4E2543801C48EC320005421A /* FBShimmeringLayer.m */,
 				4E2543811C48EC320005421A /* FBShimmeringView.h */,
 				4E2543821C48EC320005421A /* FBShimmeringView.m */,
-				4E2543831C48EC320005421A /* HUD.h */,
-				4E2543841C48EC320005421A /* HUD.m */,
 				4E2543851C48EC320005421A /* MMMaterialDesignSpinner.h */,
 				4E2543861C48EC320005421A /* MMMaterialDesignSpinner.m */,
 				4E2543871C48EC320005421A /* WSIndefiniteAnimationView.h */,
 				4E2543881C48EC320005421A /* WSIndefiniteAnimationView.m */,
 				4E2543891C48EC320005421A /* WSProgressBundle.bundle */,
-				4E25438A1C48EC320005421A /* WSProgressHUD.h */,
-				4E25438B1C48EC320005421A /* WSProgressHUD.m */,
 			);
 			path = HUD;
 			sourceTree = "<group>";
