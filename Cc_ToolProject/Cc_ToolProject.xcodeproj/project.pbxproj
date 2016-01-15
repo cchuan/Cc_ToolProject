@@ -45,6 +45,7 @@
 		4E25432C1C48C7270005421A /* DynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicViewController.h; sourceTree = "<group>"; };
 		4E25432D1C48C7270005421A /* DynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicViewController.m; sourceTree = "<group>"; };
 		4E25432E1C48C7270005421A /* DynamicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DynamicViewController.xib; sourceTree = "<group>"; };
+		4E2543361C48E1310005421A /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
 		4E4134FC1C23F6A0000AB81C /* TakePhoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePhoteViewController.h; sourceTree = "<group>"; };
 		4E4134FD1C23F6A0000AB81C /* TakePhoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePhoteViewController.m; sourceTree = "<group>"; };
 		4E4134FE1C23F6A0000AB81C /* TakePhoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakePhoteViewController.xib; sourceTree = "<group>"; };
@@ -108,6 +109,14 @@
 			name = dynamic;
 			sourceTree = "<group>";
 		};
+		4E2543351C48E11C0005421A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4E2543361C48E1310005421A /* Tools.h */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
 		4E4134FB1C23F689000AB81C /* TakePhoto */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +174,7 @@
 				4EA8397A1C2BD4D7003C97B7 /* AlertView */,
 				4E12B7CC1C3131810061E5CC /* ScrollView */,
 				4E2543271C48C6F30005421A /* dynamic */,
+				4E2543351C48E11C0005421A /* Tools */,
 			);
 			path = Cc_ToolProject;
 			sourceTree = "<group>";
