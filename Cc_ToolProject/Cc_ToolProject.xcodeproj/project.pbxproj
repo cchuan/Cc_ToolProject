@@ -13,6 +13,13 @@
 		4E2543301C48C7270005421A /* NewtonsCradleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E25432B1C48C7270005421A /* NewtonsCradleView.m */; };
 		4E2543311C48C7270005421A /* DynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E25432D1C48C7270005421A /* DynamicViewController.m */; };
 		4E2543321C48C7270005421A /* DynamicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E25432E1C48C7270005421A /* DynamicViewController.xib */; };
+		4E25438C1C48EC320005421A /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2543801C48EC320005421A /* FBShimmeringLayer.m */; };
+		4E25438D1C48EC320005421A /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2543821C48EC320005421A /* FBShimmeringView.m */; };
+		4E25438E1C48EC320005421A /* HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2543841C48EC320005421A /* HUD.m */; };
+		4E25438F1C48EC320005421A /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2543861C48EC320005421A /* MMMaterialDesignSpinner.m */; };
+		4E2543901C48EC320005421A /* WSIndefiniteAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2543881C48EC320005421A /* WSIndefiniteAnimationView.m */; };
+		4E2543911C48EC320005421A /* WSProgressBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4E2543891C48EC320005421A /* WSProgressBundle.bundle */; };
+		4E2543921C48EC320005421A /* WSProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E25438B1C48EC320005421A /* WSProgressHUD.m */; };
 		4E4134FF1C23F6A0000AB81C /* TakePhoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4134FD1C23F6A0000AB81C /* TakePhoteViewController.m */; };
 		4E4135001C23F6A0000AB81C /* TakePhoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E4134FE1C23F6A0000AB81C /* TakePhoteViewController.xib */; };
 		4E4135031C23F6A8000AB81C /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4135021C23F6A8000AB81C /* CaptureSessionManager.m */; };
@@ -46,6 +53,21 @@
 		4E25432D1C48C7270005421A /* DynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicViewController.m; sourceTree = "<group>"; };
 		4E25432E1C48C7270005421A /* DynamicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DynamicViewController.xib; sourceTree = "<group>"; };
 		4E2543361C48E1310005421A /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		4E25437D1C48EC320005421A /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
+		4E25437E1C48EC320005421A /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		4E25437F1C48EC320005421A /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
+		4E2543801C48EC320005421A /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
+		4E2543811C48EC320005421A /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
+		4E2543821C48EC320005421A /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
+		4E2543831C48EC320005421A /* HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUD.h; sourceTree = "<group>"; };
+		4E2543841C48EC320005421A /* HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUD.m; sourceTree = "<group>"; };
+		4E2543851C48EC320005421A /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		4E2543861C48EC320005421A /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+		4E2543871C48EC320005421A /* WSIndefiniteAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSIndefiniteAnimationView.h; sourceTree = "<group>"; };
+		4E2543881C48EC320005421A /* WSIndefiniteAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSIndefiniteAnimationView.m; sourceTree = "<group>"; };
+		4E2543891C48EC320005421A /* WSProgressBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WSProgressBundle.bundle; sourceTree = "<group>"; };
+		4E25438A1C48EC320005421A /* WSProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSProgressHUD.h; sourceTree = "<group>"; };
+		4E25438B1C48EC320005421A /* WSProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSProgressHUD.m; sourceTree = "<group>"; };
 		4E4134FC1C23F6A0000AB81C /* TakePhoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePhoteViewController.h; sourceTree = "<group>"; };
 		4E4134FD1C23F6A0000AB81C /* TakePhoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePhoteViewController.m; sourceTree = "<group>"; };
 		4E4134FE1C23F6A0000AB81C /* TakePhoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TakePhoteViewController.xib; sourceTree = "<group>"; };
@@ -117,6 +139,36 @@
 			name = Tools;
 			sourceTree = "<group>";
 		};
+		4E2543371C48EA850005421A /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				4E25437C1C48EC320005421A /* HUD */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		4E25437C1C48EC320005421A /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				4E25437D1C48EC320005421A /* FBShimmering-Prefix.pch */,
+				4E25437E1C48EC320005421A /* FBShimmering.h */,
+				4E25437F1C48EC320005421A /* FBShimmeringLayer.h */,
+				4E2543801C48EC320005421A /* FBShimmeringLayer.m */,
+				4E2543811C48EC320005421A /* FBShimmeringView.h */,
+				4E2543821C48EC320005421A /* FBShimmeringView.m */,
+				4E2543831C48EC320005421A /* HUD.h */,
+				4E2543841C48EC320005421A /* HUD.m */,
+				4E2543851C48EC320005421A /* MMMaterialDesignSpinner.h */,
+				4E2543861C48EC320005421A /* MMMaterialDesignSpinner.m */,
+				4E2543871C48EC320005421A /* WSIndefiniteAnimationView.h */,
+				4E2543881C48EC320005421A /* WSIndefiniteAnimationView.m */,
+				4E2543891C48EC320005421A /* WSProgressBundle.bundle */,
+				4E25438A1C48EC320005421A /* WSProgressHUD.h */,
+				4E25438B1C48EC320005421A /* WSProgressHUD.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
 		4E4134FB1C23F689000AB81C /* TakePhoto */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +221,7 @@
 				4E594F4A1C23DB730089509C /* ViewController.h */,
 				4E594F4B1C23DB730089509C /* ViewController.m */,
 				4E594F4D1C23DB730089509C /* Main.storyboard */,
+				4E2543371C48EA850005421A /* Custom */,
 				4E4134FB1C23F689000AB81C /* TakePhoto */,
 				4E4135041C23F75B000AB81C /* TableView */,
 				4EA8397A1C2BD4D7003C97B7 /* AlertView */,
@@ -281,6 +334,7 @@
 			files = (
 				4E4135001C23F6A0000AB81C /* TakePhoteViewController.xib in Resources */,
 				4E2543321C48C7270005421A /* DynamicViewController.xib in Resources */,
+				4E2543911C48EC320005421A /* WSProgressBundle.bundle in Resources */,
 				4E594F541C23DB730089509C /* LaunchScreen.storyboard in Resources */,
 				4E594F511C23DB730089509C /* Assets.xcassets in Resources */,
 				4E41350E1C23FE2F000AB81C /* CcTableViewCell.xib in Resources */,
@@ -346,17 +400,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E25438E1C48EC320005421A /* HUD.m in Sources */,
 				4E4134FF1C23F6A0000AB81C /* TakePhoteViewController.m in Sources */,
 				4E4135031C23F6A8000AB81C /* CaptureSessionManager.m in Sources */,
 				4E594F4C1C23DB730089509C /* ViewController.m in Sources */,
+				4E25438D1C48EC320005421A /* FBShimmeringView.m in Sources */,
 				4E12B7D01C3131A30061E5CC /* ScrollViewController.m in Sources */,
+				4E25438F1C48EC320005421A /* MMMaterialDesignSpinner.m in Sources */,
 				4E4135081C23F7CA000AB81C /* CcTableViewController.m in Sources */,
 				4E594F491C23DB730089509C /* AppDelegate.m in Sources */,
 				4E2543311C48C7270005421A /* DynamicViewController.m in Sources */,
 				4E594F461C23DB730089509C /* main.m in Sources */,
+				4E2543901C48EC320005421A /* WSIndefiniteAnimationView.m in Sources */,
 				4E25432F1C48C7270005421A /* BallView.m in Sources */,
+				4E25438C1C48EC320005421A /* FBShimmeringLayer.m in Sources */,
 				4E41350D1C23FE2F000AB81C /* CcTableViewCell.m in Sources */,
 				4E2543301C48C7270005421A /* NewtonsCradleView.m in Sources */,
+				4E2543921C48EC320005421A /* WSProgressHUD.m in Sources */,
 				4EA8397E1C2BD508003C97B7 /* AlertViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

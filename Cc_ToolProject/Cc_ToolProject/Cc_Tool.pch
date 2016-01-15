@@ -17,6 +17,7 @@
 #import <MJRefresh.h>
 
 #import "Tools.h"
+#import "HUD.h"
 
 #ifdef DEBUG
 static const int ddLogLevel = DDLogLevelVerbose;
