@@ -1,21 +1,30 @@
 {
   "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D5D76F157B058B18533C1ECA1184515A369CD6FF",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "745f8159-4e87-dc48-9f8a-b92ea1f36c7e++1971" : {
 
+    }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "D5D76F157B058B18533C1ECA1184515A369CD6FF" : 0,
+    "745f8159-4e87-dc48-9f8a-b92ea1f36c7e++1971" : 0,
     "973DEDA493908D161A15A0E370BB35FACFCCFDF0" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "164A76C4-CEE2-40CF-86C3-2EFAF06319F1",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "D5D76F157B058B18533C1ECA1184515A369CD6FF" : "Cc_ToolProject\/",
+    "745f8159-4e87-dc48-9f8a-b92ea1f36c7e++1971" : "Cc_ToolProject\/Cc_ToolProject\/Cc_ToolProject\/HUD\/",
     "973DEDA493908D161A15A0E370BB35FACFCCFDF0" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Cc_ToolProject",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Cc_ToolProject\/Cc_ToolProject.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/120.25.237.71\/svn\/DD_IOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "745f8159-4e87-dc48-9f8a-b92ea1f36c7e++1971"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cchuan\/MyFirstTestDemo.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",

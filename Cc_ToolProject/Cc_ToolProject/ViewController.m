@@ -12,6 +12,7 @@
 #import "AlertViewController.h"
 #import "ScrollViewController.h"
 #import "DynamicViewController.h"
+#import "TestCameraViewController.h"
 
 @interface ViewController ()
 
@@ -34,6 +35,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+}
+
+- (IBAction)cameraTest:(id)sender
+{
+    TestCameraViewController *testVC = [[TestCameraViewController alloc] init];
+    [self.navigationController pushViewController:testVC animated:YES];
 }
 
 - (IBAction)actionButtonClick:(id)sender
