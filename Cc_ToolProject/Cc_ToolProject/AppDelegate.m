@@ -17,9 +17,41 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    [self setUpLaunchScreen];
+
     [self setUpLogColor];
     
     return YES;
+}
+
+- (void)setUpLaunchScreen {
+    
+    self.customLaunchImageView = [[UIImageView alloc]initWithFrame:self.window.bounds];
+    self.customLaunchImageView.userInteractionEnabled = YES;
+    self.customLaunchImageView.backgroundColor = [UIColor redColor];
+    
+    [self.window addSubview:self.customLaunchImageView];
+    [self.window bringSubviewToFront:self.customLaunchImageView];
+    
+    //5秒后自动关闭
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5*NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self yourButtonClick];
+    });
+}
+
+- (void)yourButtonClick {
+    
+    //是否显示新版本引导页加在这里
+    
+    //移动自定义启动图
+    if (self.customLaunchImageView) {
+        [UIView animateWithDuration:0.3 animations:^{
+            self.customLaunchImageView.alpha = 0;
+        } completion:^(BOOL finished) {
+            [self.customLaunchImageView removeFromSuperview];
+            self.customLaunchImageView = nil;
+        }];
+    }
 }
 
 - (void)setUpLogColor

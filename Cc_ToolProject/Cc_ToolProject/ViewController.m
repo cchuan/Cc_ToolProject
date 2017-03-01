@@ -13,6 +13,7 @@
 #import "ScrollViewController.h"
 #import "DynamicViewController.h"
 #import "TestCameraViewController.h"
+#import "CCAnimationViewController.h"
 
 @interface ViewController ()
 
@@ -63,6 +64,9 @@
     } else if ([titleStr isEqualToString:@"dynamic"]) {
         DynamicViewController *dynamicVC = [[DynamicViewController alloc] init];
         [self.navigationController pushViewController:dynamicVC animated:YES];
+    } else if ([titleStr isEqualToString:@"CCAnimation"]) {
+        CCAnimationViewController *animationVC = [[CCAnimationViewController alloc] init];
+        [self.navigationController pushViewController:animationVC animated:YES];
     }
 }
 

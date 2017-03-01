@@ -35,6 +35,9 @@
 		4E594F541C23DB730089509C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E594F521C23DB730089509C /* LaunchScreen.storyboard */; };
 		4EA8397E1C2BD508003C97B7 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA8397C1C2BD508003C97B7 /* AlertViewController.m */; };
 		4EA8397F1C2BD508003C97B7 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EA8397D1C2BD508003C97B7 /* AlertViewController.xib */; };
+		4EAC5D1E1DEBC35A00C291A2 /* CCAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC5D1C1DEBC35A00C291A2 /* CCAnimationViewController.m */; };
+		4EAC5D1F1DEBC35A00C291A2 /* CCAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EAC5D1D1DEBC35A00C291A2 /* CCAnimationViewController.xib */; };
+		4EAC5D211DEBCBFE00C291A2 /* CC_Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EAC5D201DEBCBFE00C291A2 /* CC_Launch Screen.storyboard */; };
 		4EDB5DF71CC4832900B45FFE /* TestCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB5DF51CC4832900B45FFE /* TestCameraViewController.m */; };
 		4EDB5DF81CC4832900B45FFE /* TestCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDB5DF61CC4832900B45FFE /* TestCameraViewController.xib */; };
 		CFF1C4FEB5BBB9976A40C80D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8936E6F7421BD8B0C55B3A3E /* libPods.a */; };
@@ -94,6 +97,10 @@
 		4EA8397B1C2BD508003C97B7 /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
 		4EA8397C1C2BD508003C97B7 /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
 		4EA8397D1C2BD508003C97B7 /* AlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertViewController.xib; sourceTree = "<group>"; };
+		4EAC5D1B1DEBC35A00C291A2 /* CCAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAnimationViewController.h; sourceTree = "<group>"; };
+		4EAC5D1C1DEBC35A00C291A2 /* CCAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAnimationViewController.m; sourceTree = "<group>"; };
+		4EAC5D1D1DEBC35A00C291A2 /* CCAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCAnimationViewController.xib; sourceTree = "<group>"; };
+		4EAC5D201DEBCBFE00C291A2 /* CC_Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "CC_Launch Screen.storyboard"; sourceTree = "<group>"; };
 		4EDB5DF41CC4832900B45FFE /* TestCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCameraViewController.h; sourceTree = "<group>"; };
 		4EDB5DF51CC4832900B45FFE /* TestCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCameraViewController.m; sourceTree = "<group>"; };
 		4EDB5DF61CC4832900B45FFE /* TestCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCameraViewController.xib; sourceTree = "<group>"; };
@@ -132,6 +139,9 @@
 				4E25432C1C48C7270005421A /* DynamicViewController.h */,
 				4E25432D1C48C7270005421A /* DynamicViewController.m */,
 				4E25432E1C48C7270005421A /* DynamicViewController.xib */,
+				4EAC5D1B1DEBC35A00C291A2 /* CCAnimationViewController.h */,
+				4EAC5D1C1DEBC35A00C291A2 /* CCAnimationViewController.m */,
+				4EAC5D1D1DEBC35A00C291A2 /* CCAnimationViewController.xib */,
 			);
 			name = dynamic;
 			sourceTree = "<group>";
@@ -236,6 +246,7 @@
 				4E12B7CC1C3131810061E5CC /* ScrollView */,
 				4E2543271C48C6F30005421A /* dynamic */,
 				4E2543351C48E11C0005421A /* Tools */,
+				4EAC5D201DEBCBFE00C291A2 /* CC_Launch Screen.storyboard */,
 			);
 			path = Cc_ToolProject;
 			sourceTree = "<group>";
@@ -313,7 +324,7 @@
 				TargetAttributes = {
 					4E594F401C23DB730089509C = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = PN96K68BXN;
+						DevelopmentTeam = 8JCTZKQ6PE;
 					};
 				};
 			};
@@ -343,6 +354,8 @@
 				4E4135001C23F6A0000AB81C /* TakePhoteViewController.xib in Resources */,
 				4E2543321C48C7270005421A /* DynamicViewController.xib in Resources */,
 				4E2543911C48EC320005421A /* WSProgressBundle.bundle in Resources */,
+				4EAC5D211DEBCBFE00C291A2 /* CC_Launch Screen.storyboard in Resources */,
+				4EAC5D1F1DEBC35A00C291A2 /* CCAnimationViewController.xib in Resources */,
 				4E594F541C23DB730089509C /* LaunchScreen.storyboard in Resources */,
 				4E594F511C23DB730089509C /* Assets.xcassets in Resources */,
 				4E41350E1C23FE2F000AB81C /* CcTableViewCell.xib in Resources */,
@@ -428,6 +441,7 @@
 				4E2543921C48EC320005421A /* WSProgressHUD.m in Sources */,
 				4EDB5DF71CC4832900B45FFE /* TestCameraViewController.m in Sources */,
 				4EA8397E1C2BD508003C97B7 /* AlertViewController.m in Sources */,
+				4EAC5D1E1DEBC35A00C291A2 /* CCAnimationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,12 +556,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Lv qiuming (Y92GKVR53U)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lv qiuming (Y92GKVR53U)";
+				DEVELOPMENT_TEAM = 8JCTZKQ6PE;
 				GCC_PREFIX_HEADER = /Users/cchuan/Documents/MyGithub/Cc_ToolProject/Cc_ToolProject/Cc_ToolProject/Cc_Tool.pch;
 				INFOPLIST_FILE = Cc_ToolProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cc.Cc-ToolProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2435e830-c03d-4115-a214-4c034c1e167a";
+				PROVISIONING_PROFILE = "21e61940-4e62-4eca-ada9-8b6b4ee7f742";
+				PROVISIONING_PROFILE_SPECIFIER = TestDemoFile;
 			};
 			name = Debug;
 		};
