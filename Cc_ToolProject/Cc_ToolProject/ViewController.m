@@ -15,6 +15,8 @@
 #import "TestCameraViewController.h"
 #import "CCAnimationViewController.h"
 
+#import "CcKeyChain.h"
+
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UIButton *addButton;

@@ -40,6 +40,8 @@
 		4EAC5D211DEBCBFE00C291A2 /* CC_Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EAC5D201DEBCBFE00C291A2 /* CC_Launch Screen.storyboard */; };
 		4EDB5DF71CC4832900B45FFE /* TestCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB5DF51CC4832900B45FFE /* TestCameraViewController.m */; };
 		4EDB5DF81CC4832900B45FFE /* TestCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDB5DF61CC4832900B45FFE /* TestCameraViewController.xib */; };
+		4EE6EAE11E66B3740099D557 /* CcKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6EAE01E66B3740099D557 /* CcKeyChain.m */; };
+		4EE6EAE31E66B4820099D557 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE6EAE21E66B4820099D557 /* Security.framework */; };
 		CFF1C4FEB5BBB9976A40C80D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8936E6F7421BD8B0C55B3A3E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -104,6 +106,9 @@
 		4EDB5DF41CC4832900B45FFE /* TestCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCameraViewController.h; sourceTree = "<group>"; };
 		4EDB5DF51CC4832900B45FFE /* TestCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCameraViewController.m; sourceTree = "<group>"; };
 		4EDB5DF61CC4832900B45FFE /* TestCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestCameraViewController.xib; sourceTree = "<group>"; };
+		4EE6EADF1E66B3740099D557 /* CcKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CcKeyChain.h; sourceTree = "<group>"; };
+		4EE6EAE01E66B3740099D557 /* CcKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CcKeyChain.m; sourceTree = "<group>"; };
+		4EE6EAE21E66B4820099D557 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		8936E6F7421BD8B0C55B3A3E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -112,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE6EAE31E66B4820099D557 /* Security.framework in Frameworks */,
 				CFF1C4FEB5BBB9976A40C80D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				4E2543361C48E1310005421A /* Tools.h */,
+				4EE6EADF1E66B3740099D557 /* CcKeyChain.h */,
+				4EE6EAE01E66B3740099D557 /* CcKeyChain.m */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -285,6 +293,7 @@
 		DD555D9B3E812853C2040B97 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4EE6EAE21E66B4820099D557 /* Security.framework */,
 				8936E6F7421BD8B0C55B3A3E /* libPods.a */,
 			);
 			name = Frameworks;
@@ -425,6 +434,7 @@
 				4E25438E1C48EC320005421A /* HUD.m in Sources */,
 				4E4134FF1C23F6A0000AB81C /* TakePhoteViewController.m in Sources */,
 				4E4135031C23F6A8000AB81C /* CaptureSessionManager.m in Sources */,
+				4EE6EAE11E66B3740099D557 /* CcKeyChain.m in Sources */,
 				4E594F4C1C23DB730089509C /* ViewController.m in Sources */,
 				4E25438D1C48EC320005421A /* FBShimmeringView.m in Sources */,
 				4E12B7D01C3131A30061E5CC /* ScrollViewController.m in Sources */,
